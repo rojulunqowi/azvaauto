@@ -1,0 +1,6 @@
+# Cloudflare Pages SPA Routing Rules
+/*  /index.html  200
+
+# Opsional: Jika backend Express Anda di-host secara terpisah (misal di Cloud Run, Railway, atau VPS):
+# Hapus tanda komentar (#) pada baris berikut dan sesuaikan URL backend Anda:
+# /api/*  https://backend-anda.com/api/:splat  200
