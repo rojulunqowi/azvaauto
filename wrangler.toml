@@ -12,3 +12,5 @@ command = "npm run build:pages"
 # Environment Variables (opsional)
 [vars]
 NODE_ENV = "production"
+# wrangler.toml
+name = 'azvaauto'
