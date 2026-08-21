@@ -1,0 +1,14 @@
+# Cloudflare Pages / Workers Configuration File
+name = "discord-autopost-bot"
+compatibility_date = "2024-09-23"
+pages_build_output_dir = "dist"
+
+[site]
+bucket = "./dist"
+
+[build]
+command = "npm run build:pages"
+
+# Environment Variables (opsional)
+[vars]
+NODE_ENV = "production"

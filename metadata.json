@@ -1,0 +1,6 @@
+{
+  "name": "Discord Autopost Dashboard",
+  "description": "Full-featured Discord auto-post management tool with multi-channel scheduling, token management, custom delays, file imports, and live execution logging.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
